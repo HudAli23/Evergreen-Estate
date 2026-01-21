@@ -1,0 +1,72 @@
+/* Add or modify your existing styles as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Search Properties Bar Styles */
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid #333; /* Border around the search bar */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#wallpaper {
+    height: 300px; /* Adjust height as needed */
+    background-image: url('wallpaper.jpg'); /* Add your wallpaper image source here */
+    background-size: cover;
+    background-position: center;
+}
