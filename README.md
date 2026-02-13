@@ -2,7 +2,7 @@
 
 Evergreen Estate is a **PHP + MySQL** CRUD web app for a small real-estate workflow: managing **agents**, **clients**, **properties** (with images), and **appointments** between them.
 
-## Why this project (portfolio framing)
+## Why this project
 
 This project demonstrates:
 
